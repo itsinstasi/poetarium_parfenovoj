@@ -28,6 +28,9 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -59,249 +62,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэт ариум">
-								<a href="./poet-arium.html">
-									<div class="stories__slide-pic"><img src="../img/og/poet-arium.png" alt="поэт ариум" /></div>
-									<div class="stories__slide-txt">поэт ариум</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэт ариум">
+										<a href="./poet-arium.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poet-arium.png);"></div>
+											<div class="stories__slide-txt">поэт ариум</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэт ариумп арфе новой">
+										<a href="./poet-ariump-arfe-novoy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poet-ariump-arfe-novoy.png);"></div>
+											<div class="stories__slide-txt">поэт ариумп арфе новой</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="люлька lounge">
+										<a href="./lyul-ka-lounge.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/lyul-ka-lounge.png);"></div>
+											<div class="stories__slide-txt">люлька lounge</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты Москвы">
+										<a href="./poety-moskvy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety-Moskvy.png);"></div>
+											<div class="stories__slide-txt">поэты Москвы</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты">
+										<a href="./poety.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety.png);"></div>
+											<div class="stories__slide-txt">поэты</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты 21века">
+										<a href="./poety-21veka.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety-21veka.png);"></div>
+											<div class="stories__slide-txt">поэты 21века</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэзия">
+										<a href="./poeziya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poeziya.png);"></div>
+											<div class="stories__slide-txt">поэзия</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="современные поэты">
+										<a href="./sovremennye-poety.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sovremennye-poety.png);"></div>
+											<div class="stories__slide-txt">современные поэты</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="стихи">
+										<a href="./stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/stikhi.png);"></div>
+											<div class="stories__slide-txt">стихи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="романтика">
+										<a href="./romantika.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/romantika.png);"></div>
+											<div class="stories__slide-txt">романтика</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="вечер">
+										<a href="./vecher.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/vecher.png);"></div>
+											<div class="stories__slide-txt">вечер</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="современная поэзия">
+										<a href="./sovremennaya-poeziya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sovremennaya-poeziya.png);"></div>
+											<div class="stories__slide-txt">современная поэзия</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="читаем стихи">
+										<a href="./chitaem-stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/chitaem-stikhi.png);"></div>
+											<div class="stories__slide-txt">читаем стихи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="интеллектуальный досуг">
+										<a href="./intellektual-nyy-dosug.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/intellektual-nyy-dosug.png);"></div>
+											<div class="stories__slide-txt">интеллектуальный досуг</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэзия большихгородов">
+										<a href="./poeziya-bol-shikhgorodov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poeziya-bol-shikhgorodov.png);"></div>
+											<div class="stories__slide-txt">поэзия большихгородов</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="пишем стихи">
+										<a href="./pishem-stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/pishem-stikhi.png);"></div>
+											<div class="stories__slide-txt">пишем стихи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="арт пространство">
+										<a href="./art-prostranstvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/art-prostranstvo.png);"></div>
+											<div class="stories__slide-txt">арт пространство</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="культовоеместо">
+										<a href="./kul-tovoemesto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kul-tovoemesto.png);"></div>
+											<div class="stories__slide-txt">культовоеместо</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="арт площадка">
+										<a href="./art-ploshchadka.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/art-ploshchadka.png);"></div>
+											<div class="stories__slide-txt">арт площадка</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="атмосферное место">
+										<a href="./atmosfernoe-mesto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/atmosfernoe-mesto.png);"></div>
+											<div class="stories__slide-txt">атмосферное место</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="концерт">
+										<a href="./kontsert.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kontsert.png);"></div>
+											<div class="stories__slide-txt">концерт</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="творчество">
+										<a href="./tvorchestvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tvorchestvo.png);"></div>
+											<div class="stories__slide-txt">творчество</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="бар">
+										<a href="./bar.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/bar.png);"></div>
+											<div class="stories__slide-txt">бар</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="панорамный вид">
+										<a href="./panoramnyy-vid.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/panoramnyy-vid.png);"></div>
+											<div class="stories__slide-txt">панорамный вид</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="веранда">
+										<a href="./veranda.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/veranda.png);"></div>
+											<div class="stories__slide-txt">веранда</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="среда обитания поэтов">
+										<a href="./sreda-obitaniya-poetov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sreda-obitaniya-poetov.png);"></div>
+											<div class="stories__slide-txt">среда обитания поэтов</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="автор">
+										<a href="./avtor.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/avtor.png);"></div>
+											<div class="stories__slide-txt">автор</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="перфоманс">
+										<a href="./perfomans.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/perfomans.png);"></div>
+											<div class="stories__slide-txt">перфоманс</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="repost">
+										<a href="./repost.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/repost.png);"></div>
+											<div class="stories__slide-txt">repost</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="закат">
+										<a href="./zakat.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakat.png);"></div>
+											<div class="stories__slide-txt">закат</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэт ариумп арфе новой">
-								<a href="./poet-ariump-arfe-novoy.html">
-									<div class="stories__slide-pic"><img src="../img/og/poet-ariump-arfe-novoy.png" alt="поэт ариумп арфе новой" /></div>
-									<div class="stories__slide-txt">поэт ариумп арфе новой</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="люлька lounge">
-								<a href="./lyul-ka-lounge.html">
-									<div class="stories__slide-pic"><img src="../img/og/lyul-ka-lounge.png" alt="люлька lounge" /></div>
-									<div class="stories__slide-txt">люлька lounge</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэты Москвы">
-								<a href="./poety-moskvy.html">
-									<div class="stories__slide-pic"><img src="../img/og/poety-Moskvy.png" alt="поэты Москвы" /></div>
-									<div class="stories__slide-txt">поэты Москвы</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэты">
-								<a href="./poety.html">
-									<div class="stories__slide-pic"><img src="../img/og/poety.png" alt="поэты" /></div>
-									<div class="stories__slide-txt">поэты</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэты 21века">
-								<a href="./poety-21veka.html">
-									<div class="stories__slide-pic"><img src="../img/og/poety-21veka.png" alt="поэты 21века" /></div>
-									<div class="stories__slide-txt">поэты 21века</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэзия">
-								<a href="./poeziya.html">
-									<div class="stories__slide-pic"><img src="../img/og/poeziya.png" alt="поэзия" /></div>
-									<div class="stories__slide-txt">поэзия</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="современные поэты">
-								<a href="./sovremennye-poety.html">
-									<div class="stories__slide-pic"><img src="../img/og/sovremennye-poety.png" alt="современные поэты" /></div>
-									<div class="stories__slide-txt">современные поэты</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="стихи">
-								<a href="./stikhi.html">
-									<div class="stories__slide-pic"><img src="../img/og/stikhi.png" alt="стихи" /></div>
-									<div class="stories__slide-txt">стихи</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="романтика">
-								<a href="./romantika.html">
-									<div class="stories__slide-pic"><img src="../img/og/romantika.png" alt="романтика" /></div>
-									<div class="stories__slide-txt">романтика</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="вечер">
-								<a href="./vecher.html">
-									<div class="stories__slide-pic"><img src="../img/og/vecher.png" alt="вечер" /></div>
-									<div class="stories__slide-txt">вечер</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="современная поэзия">
-								<a href="./sovremennaya-poeziya.html">
-									<div class="stories__slide-pic"><img src="../img/og/sovremennaya-poeziya.png" alt="современная поэзия" /></div>
-									<div class="stories__slide-txt">современная поэзия</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="читаем стихи">
-								<a href="./chitaem-stikhi.html">
-									<div class="stories__slide-pic"><img src="../img/og/chitaem-stikhi.png" alt="читаем стихи" /></div>
-									<div class="stories__slide-txt">читаем стихи</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="интеллектуальный досуг">
-								<a href="./intellektual-nyy-dosug.html">
-									<div class="stories__slide-pic"><img src="../img/og/intellektual-nyy-dosug.png" alt="интеллектуальный досуг" /></div>
-									<div class="stories__slide-txt">интеллектуальный досуг</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэзия большихгородов">
-								<a href="./poeziya-bol-shikhgorodov.html">
-									<div class="stories__slide-pic"><img src="../img/og/poeziya-bol-shikhgorodov.png" alt="поэзия большихгородов" /></div>
-									<div class="stories__slide-txt">поэзия большихгородов</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="пишем стихи">
-								<a href="./pishem-stikhi.html">
-									<div class="stories__slide-pic"><img src="../img/og/pishem-stikhi.png" alt="пишем стихи" /></div>
-									<div class="stories__slide-txt">пишем стихи</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="арт пространство">
-								<a href="./art-prostranstvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/art-prostranstvo.png" alt="арт пространство" /></div>
-									<div class="stories__slide-txt">арт пространство</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="культовоеместо">
-								<a href="./kul-tovoemesto.html">
-									<div class="stories__slide-pic"><img src="../img/og/kul-tovoemesto.png" alt="культовоеместо" /></div>
-									<div class="stories__slide-txt">культовоеместо</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="арт площадка">
-								<a href="./art-ploshchadka.html">
-									<div class="stories__slide-pic"><img src="../img/og/art-ploshchadka.png" alt="арт площадка" /></div>
-									<div class="stories__slide-txt">арт площадка</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="атмосферное место">
-								<a href="./atmosfernoe-mesto.html">
-									<div class="stories__slide-pic"><img src="../img/og/atmosfernoe-mesto.png" alt="атмосферное место" /></div>
-									<div class="stories__slide-txt">атмосферное место</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="концерт">
-								<a href="./kontsert.html">
-									<div class="stories__slide-pic"><img src="../img/og/kontsert.png" alt="концерт" /></div>
-									<div class="stories__slide-txt">концерт</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="творчество">
-								<a href="./tvorchestvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/tvorchestvo.png" alt="творчество" /></div>
-									<div class="stories__slide-txt">творчество</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="бар">
-								<a href="./bar.html">
-									<div class="stories__slide-pic"><img src="../img/og/bar.png" alt="бар" /></div>
-									<div class="stories__slide-txt">бар</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="панорамный вид">
-								<a href="./panoramnyy-vid.html">
-									<div class="stories__slide-pic"><img src="../img/og/panoramnyy-vid.png" alt="панорамный вид" /></div>
-									<div class="stories__slide-txt">панорамный вид</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="веранда">
-								<a href="./veranda.html">
-									<div class="stories__slide-pic"><img src="../img/og/veranda.png" alt="веранда" /></div>
-									<div class="stories__slide-txt">веранда</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="среда обитания поэтов">
-								<a href="./sreda-obitaniya-poetov.html">
-									<div class="stories__slide-pic"><img src="../img/og/sreda-obitaniya-poetov.png" alt="среда обитания поэтов" /></div>
-									<div class="stories__slide-txt">среда обитания поэтов</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="автор">
-								<a href="./avtor.html">
-									<div class="stories__slide-pic"><img src="../img/og/avtor.png" alt="автор" /></div>
-									<div class="stories__slide-txt">автор</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="перфоманс">
-								<a href="./perfomans.html">
-									<div class="stories__slide-pic"><img src="../img/og/perfomans.png" alt="перфоманс" /></div>
-									<div class="stories__slide-txt">перфоманс</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="repost">
-								<a href="./repost.html">
-									<div class="stories__slide-pic"><img src="../img/og/repost.png" alt="repost" /></div>
-									<div class="stories__slide-txt">repost</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="закат">
-								<a href="./zakat.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakat.png" alt="закат" /></div>
-									<div class="stories__slide-txt">закат</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -330,7 +339,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxsof-ya-krupina---odna-iz-sozdateley-spektaklya--plastika-poeziya-garmoniya-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c8e479e64f3be85d9248e4b337694c8b/5DA658E7/t51.2885-15/e35/70006155_165852811265276_3464427958857614649_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e17b2b46443150ad380540c82cdbd89a/5DA9A4A7/t51.2885-15/e35/70006155_165852811265276_3464427958857614649_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -404,7 +413,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./xxdruz-ya-3.html" class="tag__item">
+							<a href="../posts/./xxdruz-ya-4.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/18753f66695700516cc2a935e370870a/5E2ECDA4/t51.2885-15/e35/67445785_1326170494226217_1954555287015482793_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
@@ -420,7 +429,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxrepost-ot-zamechatel-nogo--uchastnika-nashego-vechera.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4361d5352f62220ad4e8e89004f7b8ca/5DA59DC9/t51.2885-15/e35/66292703_841830642878161_1830461655932949064_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9ab61e80beba03604785263793adff50/5DA99249/t51.2885-15/e35/66292703_841830642878161_1830461655932949064_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -435,7 +444,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xty-ne-derevox-ty-elektricheskiy-zaryadx-polina.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/26d8a187e2742d70659946edbb3a30c7/5DA59D2B/t51.2885-15/e35/66274140_2605825336104017_7373829413376016067_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/eb3ab4a161e87a6b1c0ef51e2c43d03b/5DA991AB/t51.2885-15/e35/66274140_2605825336104017_7373829413376016067_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -450,7 +459,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxotryvki-iz-zamechatel-nogo-romana--dni-saveliya-xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e7f143f1e2618af6795a8233f4375cea/5DA5288A/t51.2885-15/e35/67075765_338298327122632_303220666314500682_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1fbdd1a05fd0d8710f34d6aa9599fffd/5DA91D0A/t51.2885-15/e35/67075765_338298327122632_303220666314500682_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -525,7 +534,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxchudesnaya-tat-yana-stoyanova-xtinaxskay-i-ee.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/69d5132c9c0a04ce81c9e95c3e6503b9/5DA58AB6/t51.2885-15/e35/65221167_846354552400818_7606912822838528816_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c00933463972598a50fb2775a40b5ea6/5DA97F36/t51.2885-15/e35/65221167_846354552400818_7606912822838528816_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -585,7 +594,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxetot-golos-obnimaet-i-zavorazhivaet-s-pervoy-noty.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9eaf7822642b81236d98a377b4bf1c52/5DA65B66/t51.2885-15/e35/65181494_652393575279155_5760381858058228208_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/03cde3177b20b92c3f460602432b023b/5DA9A726/t51.2885-15/e35/65181494_652393575279155_5760381858058228208_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -615,7 +624,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxstikhi-na-kryshexx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a53ffb693878e5f56cdc5af11f28f535/5DA568C8/t51.2885-15/e35/64781573_2466848613366664_8075962269179700183_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4b870cd6e538815449a8c988e591141e/5DA95D48/t51.2885-15/e35/64781573_2466848613366664_8075962269179700183_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -705,7 +714,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxprekrasnye-lyudi-v-prekrasnom-meste.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d7056340e7218a5a09d3bac3a82484da/5E1B4019/t51.2885-15/e35/62558313_141776197001157_3024967077773641640_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2634c052dafbfee7535017b4615612e1/5E42CD19/t51.2885-15/e35/62558313_141776197001157_3024967077773641640_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -720,7 +729,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxesli-ty-slushaesh--serdtsem-x-to-mir-otvechaet.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f91588ca7fce9fa66703d681a6c319c7/5DA54C09/t51.2885-15/e35/61042340_1356934884465273_5585748477346267054_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6fdc98c1a6bec1f14314eb81f46f5586/5DA94089/t51.2885-15/e35/61042340_1356934884465273_5585748477346267054_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -735,7 +744,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashpoetarium.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8c93c9c42d8f86f098eacd67e6505ddf/5E1C920A/t51.2885-15/e35/61441918_137606170676401_1996378944520091620_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/59a719582337eb4ca585e6010c7d331a/5E441F0A/t51.2885-15/e35/61441918_137606170676401_1996378944520091620_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -765,7 +774,7 @@
 								</div>
 							</a>
 							<a href="../posts/./zavtra-v-poetarium---poet-neveroyatnaya-xallabensson-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a258b06589ecd173aa5d7f766bc7c517/5DA551AB/t51.2885-15/e35/61406783_2272275056322763_115222058296414194_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/67eef00aa4c5c65f9d24acd573c512e4/5DA9462B/t51.2885-15/e35/61406783_2272275056322763_115222058296414194_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -810,7 +819,7 @@
 								</div>
 							</a>
 							<a href="../posts/./chitayte--antonovki-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/52aaed78f021f898fbc63906acb7c81c/5E394816/t51.2885-15/e35/61272165_147885973014037_7831227203349336283_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9e8d64c91691ebae76133a27e4fe86bd/5E60D516/t51.2885-15/e35/61272165_147885973014037_7831227203349336283_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-31">31 May 2019</time></div>
@@ -823,7 +832,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./xxdruz-ya-4.html" class="tag__item">
+							<a href="../posts/./xxdruz-ya-5.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e824b9bacd07ee5eed65c51ed445023c/5E3E2379/t51.2885-15/e35/60446980_408782319720827_9177964595982918590_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
@@ -868,7 +877,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxuzhe-zavtra.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/898e3f3a6dd7796231f7393632115dc0/5DA5B941/t51.2885-15/e35/60191446_337415013618876_8544399839339245697_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8ddbd6f1426a63e5297b3f384a654957/5DA90501/t51.2885-15/e35/60191446_337415013618876_8544399839339245697_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -883,7 +892,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxvdokhnovlyaemsya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/54da071ee2536eb6c2aa227d4f365488/5E38BAFA/t51.2885-15/e35/60803997_591052958048028_1673005461377250781_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4d87c975278838c861d010bbf44a5833/5E6047FA/t51.2885-15/e35/60803997_591052958048028_1673005461377250781_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -897,7 +906,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./xxdruz-ya-5.html" class="tag__item">
+							<a href="../posts/./xxdruz-ya-6.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/acddf5b4884b88836ad8dfe83821c123/5E20EBE4/t51.2885-15/e35/58902462_162643234765014_6514570169695580961_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
@@ -912,7 +921,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./xxdruz-ya-6.html" class="tag__item">
+							<a href="../posts/./xxdruz-ya-7.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/903ad9c19a3553bbd674b547e726b16a/5E352D53/t51.2885-15/e35/59773866_421443871968062_128232131757590508_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
@@ -927,7 +936,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxvtoraya-portsiya-fotografiy-s-dnya-rozhdeniya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/22b59f6a484435f16d889bb98b8a420b/5E3961A3/t51.2885-15/e35/56894588_437868330309672_1496045441480058662_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/adadc6fcbadc729dc785df4884255d12/5E60EEA3/t51.2885-15/e35/56894588_437868330309672_1496045441480058662_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -957,7 +966,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxprelyudiya-rakhmaninovaxxvremya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/67118f1a7e3d8a2263d400245544e07b/5DA5329A/t51.2885-15/e35/57390264_271624330380868_2890923512755207506_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d34dbcd7f4f2e3272601b8611ff990ad/5DA9271A/t51.2885-15/e35/57390264_271624330380868_2890923512755207506_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -987,7 +996,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxxxxzamechatel-nyy-aktyor-teatra-xtsdr.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/33c92eb6f817328dcb40eb3f27eec97e/5DA568F5/t51.2885-15/e35/56786355_102793460878257_5641450239008385247_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ad316ee90e34204899e0fd1c72ec02c7/5DA95D75/t51.2885-15/e35/56786355_102793460878257_5641450239008385247_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1002,7 +1011,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xdress-codexgospodax-poety.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7a2b955af6ad56f2e90a5ee97219a4a4/5E39DF93/t51.2885-15/e35/54513203_313924955961259_8081229205406142335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/380366c7c472636d231b2c3c034d2168/5E616C93/t51.2885-15/e35/54513203_313924955961259_8081229205406142335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1017,7 +1026,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxart-proekt.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/eac9fa5ce25c3d8a046610d550811aca/5DA5BB8A/t51.2885-15/e35/54512330_330881317787117_928290311749211473_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7d6d800cdffe78b3bb7e26a088c8f668/5DA9074A/t51.2885-15/e35/54512330_330881317787117_928290311749211473_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1032,7 +1041,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xx-ya---letyashchaya-kaplya-s-nebes.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a188a04e6b99627147453257384b0250/5DA5A4E8/t51.2885-15/e35/54513310_129138508173664_9155226140496342900_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3cac16e9f79d0c51654f480e2339c5d8/5DA99968/t51.2885-15/e35/54513310_129138508173664_9155226140496342900_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1047,7 +1056,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxporazitel-nyy-xbesedadmitrii---aktyorx-poet-i-muzykant---uchastnik-vechera.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ee5d662ccd3a60d6bdaced344305a880/5DA56A10/t51.2885-15/e35/55928062_1975084542619099_1690254894520176478_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f07ae0c7b49028697a937b56a3687145/5DA95E90/t51.2885-15/e35/55928062_1975084542619099_1690254894520176478_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1062,7 +1071,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/32a5260ee73e7b28dfd937a141664268/5DA52CB7/t51.2885-15/e35/56384258_2214593365244371_5810566177742990404_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d386be840645871c326011789f744ca3/5DA92137/t51.2885-15/e35/56384258_2214593365244371_5810566177742990404_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1077,7 +1086,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxznakomtes-xx-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3af6cca45b8956f3151e71b49faf5123/5DA56ACB/t51.2885-15/e35/52587385_826056711093204_1507152491442258245_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ff431aaca5b2c96ed6c1600b4e457841/5DA95F4B/t51.2885-15/e35/52587385_826056711093204_1507152491442258245_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1092,7 +1101,7 @@
 								</div>
 							</a>
 							<a href="../posts/./-ya-ne-propadux-menya-ne-slomat-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/17f3e0892661097e79e6deca2754a4cc/5DA52E82/t51.2885-15/e35/54446648_2020072361629634_6948440140813965336_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7d4f35a7c64b11fecd81cd06fa8e49de/5DA92302/t51.2885-15/e35/54446648_2020072361629634_6948440140813965336_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1107,7 +1116,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxbravox-andrey-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5b103d8bb67e372a284253ebba6e2b1d/5DA5B999/t51.2885-15/e35/56742837_905983416413937_8004025432191676265_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f7413694288c906dc701d0bfc95e9bbc/5DA90559/t51.2885-15/e35/56742837_905983416413937_8004025432191676265_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1122,7 +1131,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xx-no-razve-ne-prekrasnaya-pogoda.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fc1efb75cd5fc36c8cf875c9bf40ee38/5DA56D84/t51.2885-15/e35/56337577_855645351457057_7021426112872866576_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7414acb759ff2e7e1405700bf37e6ba2/5DA96204/t51.2885-15/e35/56337577_855645351457057_7021426112872866576_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1137,7 +1146,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xx-nash-novyy-uchastnik----xstepanx10x94----emotsional-no-tochnyy-i-predel-no-iskrenniy---poet-stepan-pi.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9cca79c959969cf043b44d05c6ca4b7d/5DA5438E/t51.2885-15/e35/53884444_273577903580942_2429280170808808058_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/938d9ac48ce3b269a6a48404509a7471/5DA9380E/t51.2885-15/e35/53884444_273577903580942_2429280170808808058_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1152,7 +1161,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxyarkaya-i-derzkayax-menyayushchaya-amplua-kak-perchatkix-rezident-nashego.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e26c15ac434d73f79e517cc0b8f890d9/5DA562E0/t51.2885-15/e35/55899992_129092261540442_4141328396588438334_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ccbdd75134b9452e54a413230006dd8d/5DA95760/t51.2885-15/e35/55899992_129092261540442_4141328396588438334_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1167,7 +1176,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxmy-ne-ishchem-talanty.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/176f8b6728b75c4aff01ccd61aee7ab8/5DA55484/t51.2885-15/e35/54511573_601191760361482_4921241067087411899_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/af45ae22c06c88dc9c0e86a75c2b50bf/5DA94904/t51.2885-15/e35/54511573_601191760361482_4921241067087411899_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1181,8 +1190,8 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./xxdruz-ya-8.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/67d03d25a01a70b65f32ffe463161d73/5E399DB1/t51.2885-15/e35/54208010_303952540285974_6016312598010088232_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+							<a href="../posts/./xxdruz-ya-9.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5be21caf228b79626be3aee8a9045bb7/5E612AB1/t51.2885-15/e35/54208010_303952540285974_6016312598010088232_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1196,7 +1205,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./xxdruz-ya-9.html" class="tag__item">
+							<a href="../posts/./xxdruz-ya-10.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a9b1465a06bd13a04f61c6afb615d3fd/5E24B959/t51.2885-15/e35/53539955_406692620108378_351359555251558558_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
@@ -1212,7 +1221,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxeto-bylo-nezabyvaemo.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c1399f6edb4a78cefdd96374372630fc/5DA56EF9/t51.2885-15/e35/54429299_402247523671318_466619438351711168_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6af6b1508530abe494321ae388aa7fa5/5DA96379/t51.2885-15/e35/54429299_402247523671318_466619438351711168_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1227,7 +1236,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxvsekh-s-dnem-poeziix-druz-ya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/72c9e72be4f253e274423cb2b8e8b5a8/5E398938/t51.2885-15/e35/53258222_1021953534663151_8991336404835036644_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6bbc664ee27633443672ea3f2b0de8d8/5E611638/t51.2885-15/e35/53258222_1021953534663151_8991336404835036644_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1242,7 +1251,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashrepost-xstepanx10x94.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1dbe9545071ed1b070d43e6de7a9b59e/5DA6508A/t51.2885-15/e35/53899706_631830277237850_5084556486983656600_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/75f7d31f4c6dc142abfbe7928de70087/5DA99C4A/t51.2885-15/e35/53899706_631830277237850_5084556486983656600_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-03-21">21 March 2019</time></div>
@@ -1256,7 +1265,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxdruz-yax-20-go-marta-v-sredu-priglashaem-vas-na-udivitel-nyy-poeticheskiy-kontsert-dvukh-zamechatel-nykh-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/71aa85480efa612a7c71a33f5c69a381/5DA5871C/t51.2885-15/e35/53000065_2021663221472024_544814360027781522_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7dd6f22647062fe02858c619671f14f0/5DA97B9C/t51.2885-15/e35/53000065_2021663221472024_544814360027781522_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1271,7 +1280,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxkto-ne-uspel-v-proshlyy-raz-poslushat--chudesnye-romantichnye-pesni-denisax-u-togo-est--shans-sdelat--e.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/48765b69f439f748340958ea6c9c9d6e/5DA59310/t51.2885-15/e35/53683222_491757918023613_9127479859283341245_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a20f2a5f965af5ffdb57aaacc804f066/5DA98790/t51.2885-15/e35/53683222_491757918023613_9127479859283341245_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-03-18">18 March 2019</time></div>
@@ -1285,7 +1294,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxberegis-x-poety.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/66748e5eacf8c953c26a496bb444d015/5DA56ADB/t51.2885-15/e35/53647185_418608358902833_3065395421115522221_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/63b23a07bd5347fc8ed86d4d5f8726e0/5DA95F5B/t51.2885-15/e35/53647185_418608358902833_3065395421115522221_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1315,7 +1324,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxdruz-yax-20-go-marta-v-sredu-priglashaem-vas-na-udivitel-nyy-poeticheskiy-kontsert-dvukh-zamechatel-nykh--1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a1277a4e00f7dc34fa1c5e3274856de6/5E39FA55/t51.2885-15/e35/52371590_2289432217981000_3375852588779768028_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/494b3a80d61e809aec3c558627622aa6/5E618755/t51.2885-15/e35/52371590_2289432217981000_3375852588779768028_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1375,7 +1384,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashmuzhskoyrazgovor-ot-litsa-zamechatel-noy-aktrisy-mariny-cheprasovoy-x4eprasova---rezidenta--proekta.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fa78bfb2d497fa1c807999bfedfa35a7/5DA59C32/t51.2885-15/e35/54512828_781444105563162_7713624371279651134_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/482b77fba71e94f675d3bc35cb2c616a/5DA990B2/t51.2885-15/e35/54512828_781444105563162_7713624371279651134_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1405,7 +1414,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxv-novom-vesennem-sezone-startuem-s-batla.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b34dd630a780a6f72a5fedab7e2fd390/5E1B26FA/t51.2885-15/e35/51974163_335300723769271_66744711944771846_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/95ded67ef4e1338bb0491114c6784260/5E42B3FA/t51.2885-15/e35/51974163_335300723769271_66744711944771846_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1539,7 +1548,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxhashpoeziyavlitsakh-xx-2.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a279330cb8b2c286bd9d307da353ab6f/5E399F1A/t51.2885-15/e35/51585967_359580881303043_6994607049762319436_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/baf3ab3ace22f96b55b755ad12a4a569/5E612C1A/t51.2885-15/e35/51585967_359580881303043_6994607049762319436_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1554,7 +1563,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxhashpoeziyavlitsakh-xx-3.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/08040816327c3f5efcb74ce025535dbe/5E1D47B0/t51.2885-15/e35/50874107_397262807767690_8876857809028440089_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fdc02c8630675ee27f8a5fb6f423e304/5E44D4B0/t51.2885-15/e35/50874107_397262807767690_8876857809028440089_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1584,7 +1593,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxspasibo-za-chudesnyy-rolik-nashim-megatalantlivym-druz-yam.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/23defa0f031aadd7a8ab8a2f2c070f34/5DA52815/t51.2885-15/e35/52676855_337368540245800_6342537882572669085_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6b3897c48a376e0d010fba8729009341/5DA91C95/t51.2885-15/e35/52676855_337368540245800_6342537882572669085_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1674,7 +1683,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxocharovatel-naya-aktrisa-i-poet-alisa-lukshina-xalisa.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/cc6c698486bae2583bb019683876abe9/5E374F33/t51.2885-15/e35/51048657_2532487066824923_7106773908521505572_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/62adb4f6184b1facf03fcc47979f99cd/5E5EDC33/t51.2885-15/e35/51048657_2532487066824923_7106773908521505572_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1719,7 +1728,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xutonchennaya-psikhologicheskaya-intonatsiya-zamechatel-noy-anny-zezinoy-xannaxzezina-na-nashem-yubileynom-poe.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fd383cfb0d3cfa86fe91776c687986a1/5DA65296/t51.2885-15/e35/50535304_310414236319102_6110872573600570509_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2d219d6afc5d6cef3a258ac9c44c8de6/5DA99E56/t51.2885-15/e35/50535304_310414236319102_6110872573600570509_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1734,7 +1743,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxhashyubeleim-i.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9a40618e30a2e4f9da55929876dff6f7/5E398089/t51.2885-15/e35/50892422_119394759146927_6689681033725761346_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/28aacb2eb25032d2f0fc20369aabbbeb/5E610D89/t51.2885-15/e35/50892422_119394759146927_6689681033725761346_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1749,7 +1758,7 @@
 								</div>
 							</a>
 							<a href="../posts/./rusalochka-nashego.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/febba2b07bf14d95659981db1ec51911/5DA55B0A/t51.2885-15/e35/50898620_644613099330424_144898413097382335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8cf26138d4ce45db8aeb667540512a4a/5DA94F8A/t51.2885-15/e35/50898620_644613099330424_144898413097382335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-02-14">14 February 2019</time></div>
@@ -1778,7 +1787,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxpolnyy-vostorg.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/71d6bb40b8077f2245e27812e707ce1e/5DA53FE7/t51.2885-15/e35/50755994_1564486290321303_6312270441022225019_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3763107645202867f50d85b8d1c5d203/5DA93467/t51.2885-15/e35/50755994_1564486290321303_6312270441022225019_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1807,7 +1816,7 @@
 								</div>
 							</a>
 							<a href="../posts/./nasha-lyubimaya-xalisatolkacheva.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fec8402a5b57ad6388dffcb5b798f7b7/5DA55EEF/t51.2885-15/e35/50263921_408641346537913_4544545443606972092_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2d3d0d3c2cd76a0d744e0274d5595631/5DA9536F/t51.2885-15/e35/50263921_408641346537913_4544545443606972092_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1865,7 +1874,7 @@
 								</div>
 							</a>
 							<a href="../posts/./zhenskaya-lirika-ot-izumitel-noy-valerii-xvoron6669-na-nashem-yubileynom.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e427028dd472f2765b788c52af69948f/5DA56BF6/t51.2885-15/e35/50481497_2185997924784399_3059007439233649255_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a763b02801d78d8fb6da0034d133a719/5DA96076/t51.2885-15/e35/50481497_2185997924784399_3059007439233649255_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1880,7 +1889,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxnu-gde-eshche-mogla-soedinit-sya-klassicheskaya-muzykaxx-i--professional-nyy-bitboks.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c554d16d187fbf87fe5ecf444fbb46ee/5DA56988/t51.2885-15/e35/51010871_1913231655469010_8174652279282965704_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5975e1a8fdad579271a21eeee5a1a573/5DA95E08/t51.2885-15/e35/51010871_1913231655469010_8174652279282965704_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1910,7 +1919,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashpoetarium---sreda-obitaniya-poetov.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/02431bd9b46d6f9d789e921ef849c501/5E1ADF61/t51.2885-15/e35/51119609_304965690214457_8338794299671017429_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8583a1f9b78fb052fc07ac5fd5b40dde/5E426C61/t51.2885-15/e35/51119609_304965690214457_8338794299671017429_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1954,7 +1963,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxkrasotax-da-i-tol-ko.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6a8bbf6e91fe9475909faf4e8ba02b5f/5E1B20E1/t51.2885-15/e35/49956635_383096425585770_1353522110416662253_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c0c645b7830894728bc1ce0d3d7306aa/5E42ADE1/t51.2885-15/e35/49956635_383096425585770_1353522110416662253_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1969,7 +1978,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxnu-i-nemnogo-ironii-ot-velikolepnogo-andreya-solodova---akterax-poetax-finalista-proekta-xsuperstik.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/93002ae3858c4e728821ba4c5bb5dfad/5DA5729C/t51.2885-15/e35/49633379_418190425591642_3015486385397157153_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/51eda1427d325442d979beb4a39e5dc3/5DA9671C/t51.2885-15/e35/49633379_418190425591642_3015486385397157153_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1984,7 +1993,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxavtorskoe-stikhotvorenie--artistka--v-artistichnom-ispolnenii-ocharovatel-noy-xmisspolinaxdaxx-na-nash.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3cad0b909ebe59c2d18ae05ffa725719/5DA593CF/t51.2885-15/e35/49292847_367768403802613_4748552012085538745_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/219f5b61c2c96658fbc23d3abaa08f5b/5DA9884F/t51.2885-15/e35/49292847_367768403802613_4748552012085538745_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -1999,7 +2008,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxukrashenie-nashego-vechera.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f65edb5ac8b7d0f67617befdedd831aa/5DA54307/t51.2885-15/e35/49608701_2260965240621020_8007056063305206293_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/608668aad4dde5ad09e2c645b5152dce/5DA93787/t51.2885-15/e35/49608701_2260965240621020_8007056063305206293_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2014,7 +2023,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vot-on.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/53ff3385cd61c0c4141c79cd1ed90f9e/5DA5323B/t51.2885-15/e35/49907355_2198654323735115_650213046820771050_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/70bccbfee9092bcaf70237e8d6f9c668/5DA926BB/t51.2885-15/e35/49907355_2198654323735115_650213046820771050_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2029,7 +2038,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxudivitel-naya-alisa-tolkacheva-xalisatolkacheva---interesneyshiy-rasskazchik-i-tonkiy-lirik.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8ff75a748b0e89c29fec44e35322d380/5DA55D90/t51.2885-15/e35/49406677_801194226889437_2764267862370027085_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6bf61cb4aa14e6c50b4723304b6f0de8/5DA95210/t51.2885-15/e35/49406677_801194226889437_2764267862370027085_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2059,7 +2068,7 @@
 								</div>
 							</a>
 							<a href="../posts/./pogovorim-o-vechnom.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/937f35b2e77d9f2c8f77d612c605a07a/5E376FC4/t51.2885-15/e35/49536502_575088819582698_3602058039793671413_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/310fa83101c62d6e04247e1ebd96606f/5E5EFCC4/t51.2885-15/e35/49536502_575088819582698_3602058039793671413_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2074,7 +2083,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxzamechatel-naya-valeriya-voronich-xvoron6669-so-svoimi-yarkimi-i-energichnymi-stikhami-na-nashem.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/bd21639c8b74614f6bb4bf5d139730da/5DA53D18/t51.2885-15/e35/50070548_801998583487301_2928760315467352271_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d7ce8c7e3ea917db9764bbbe8b80e1b4/5DA93198/t51.2885-15/e35/50070548_801998583487301_2928760315467352271_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2103,7 +2112,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="../posts/./xxdruz-ya-11.html" class="tag__item">
+							<a href="../posts/./xxdruz-ya-12.html" class="tag__item">
 								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/42115883ac21f1605faa85da2c12ccd3/5E321E9F/t51.2885-15/e35/47694059_526869147792169_4572686904893103260_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
@@ -2164,7 +2173,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashrepost-xmiazarringxlive-xxgetxrepost.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/39508c2271966cbf9ad12d78363b1f26/5DA5856E/t51.2885-15/e35/47582502_211273376493250_705941439272636534_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/89838d22e0254c9650857f897b4d86b7/5DA979EE/t51.2885-15/e35/47582502_211273376493250_705941439272636534_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2194,7 +2203,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxkakie-zhe-oni-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4d231390034cac656363dc698de5cbdc/5DA5C1CD/t51.2885-15/e35/46287493_221989308727139_8963196153797232771_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/997b98d70dd1409460148efd1e9fa394/5DA90D8D/t51.2885-15/e35/46287493_221989308727139_8963196153797232771_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2223,7 +2232,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxeto-bylo-sngosshibatel-no.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/07f546c880db82dd89bee90dd11c716a/5DA592CC/t51.2885-15/e35/47692784_127260998296190_2162369801152616889_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a3782475eec0fbdb1715d455e00fae06/5DA9874C/t51.2885-15/e35/47692784_127260998296190_2162369801152616889_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2238,7 +2247,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxeto-bylo-sngosshibatel-no-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0ce5be1d8059141abaf73630985687c3/5DA65000/t51.2885-15/e35/47690715_336757603719793_8229061204676738003_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/cc9a02a4f6ff4a8690a0301f6df0088b/5DA99BC0/t51.2885-15/e35/47690715_336757603719793_8229061204676738003_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2298,7 +2307,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxmuzykal-noe-sumasshestvie-na-novogodnem-poetarium.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/30e84c3eb7c4ece028bd2af2524ffcae/5DA58484/t51.2885-15/e35/46892268_961385880724588_1698531705323400412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ddd4abb9afe4d354dcbc8e826fa55d6c/5DA97904/t51.2885-15/e35/46892268_961385880724588_1698531705323400412_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2313,7 +2322,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxxxx-26x12-v-sredu-na.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c9429334650b84b226d1c021a722f519/5DA5A4D4/t51.2885-15/e35/47056918_506323699860361_1555987364846305335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e8b67ee149b83d5a1fd00bf41a3119d6/5DA99954/t51.2885-15/e35/47056918_506323699860361_1555987364846305335_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2328,7 +2337,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxsnova-na-sbor-gosteyx-19x00---20x00--u-nasx-avtorskiy-atmosfernyy-dj-set-ot-velikolepnogo-xdjeto-e.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/98d17571d2cca612319f23cb6e58cefe/5DA5BF3E/t51.2885-15/e35/46970880_122321658795188_1242855600758443518_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7e2a87f51185af92ce8fcd941ed8dba4/5DA90AFE/t51.2885-15/e35/46970880_122321658795188_1242855600758443518_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2358,7 +2367,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxdruz-yadruz-ya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a12bdf397ccf58ba41fc31b0d1d82898/5E1BE5E7/t51.2885-15/e35/47194787_2223828834497223_7076119151480326588_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/bc15faf05569a7fd0ba0f4967025f3ff/5E4372E7/t51.2885-15/e35/47194787_2223828834497223_7076119151480326588_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2388,7 +2397,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xx-dot.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9c5797a9f11b466e676e2e18e240dbaf/5E39C457/t51.2885-15/e35/46355501_2434810319867032_4122298956337488392_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/eac839ae0934fa97025e0eef11d1f0b9/5E615157/t51.2885-15/e35/46355501_2434810319867032_4122298956337488392_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2403,7 +2412,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashnovyymayakovskiy.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ab5454be556e913fffc2772886ade337/5DA5860E/t51.2885-15/e35/46037072_361414557982678_448553846456993440_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/bb515809eccebf523ef1f9721bf9761b/5DA97A8E/t51.2885-15/e35/46037072_361414557982678_448553846456993440_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2418,7 +2427,7 @@
 								</div>
 							</a>
 							<a href="../posts/./kuda-ukhodit.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6bde653491556458357a5326bbd5b2bb/5E38AE14/t51.2885-15/e35/47471956_507598679727812_7756950804032425694_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/53236577ba3b4ff6f404f41d72660360/5E603B14/t51.2885-15/e35/47471956_507598679727812_7756950804032425694_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2433,7 +2442,7 @@
 								</div>
 							</a>
 							<a href="../posts/./chudesnaya-xannaxzezina---avtor-proekta.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/281bc9ec8abc9d2d02df1dee186020f5/5DA59748/t51.2885-15/e35/46124197_275039863209983_752736429395197440_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fd1fe7794395055f5ac31145a1b0636d/5DA98BC8/t51.2885-15/e35/46124197_275039863209983_752736429395197440_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2463,7 +2472,7 @@
 								</div>
 							</a>
 							<a href="../posts/./s-nashim-zamechatel-nym-didzheem-evgeniem-apakidze-xdjetox-kotoryy-chudesnym-obrazom-vlilsya-v-nash-tvorche.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/679dd4989b06397383cd4b797dd2567c/5E38D9A1/t51.2885-15/e35/45913051_2448129041870249_1785118974810836418_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7033fb9c228cb486d6e9ffc6a09f087d/5E6066A1/t51.2885-15/e35/45913051_2448129041870249_1785118974810836418_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2478,7 +2487,7 @@
 								</div>
 							</a>
 							<a href="../posts/./neveroyatno-emotsional-noe-vystuplenie-potryasayushchego.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9c2a0379d3fabe4bde2051a2b9bc4939/5DA53A72/t51.2885-15/e35/44907928_287000905271055_8434197342071491246_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/bc460c5c042921db0c0cd65037d37a12/5DA92EF2/t51.2885-15/e35/44907928_287000905271055_8434197342071491246_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2493,7 +2502,7 @@
 								</div>
 							</a>
 							<a href="../posts/./ura.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6eec28ce09d2327d4b252e3220ca8c8d/5E1B2C7B/t51.2885-15/e35/44555057_257247401633316_5689113750854494382_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/872ab9ececb36814f8c35135342ced33/5E42B97B/t51.2885-15/e35/44555057_257247401633316_5689113750854494382_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2508,7 +2517,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashpoetarium-2.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/330a8457da902c1dd71635176b2a9f14/5DA54D6C/t51.2885-15/e35/42840717_320896081830586_8839975901871514579_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/dcf1853f6b71a5a0b243dd0bd75b8ef8/5DA941EC/t51.2885-15/e35/42840717_320896081830586_8839975901871514579_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2569,7 +2578,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashmoretalantaxx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5b11d4c4259680c3d71bc4d733163030/5DA5401E/t51.2885-15/e35/43185029_2093675474279082_1134787806335841164_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b55f684f81269ac436fcd23e01e4c1ca/5DA9349E/t51.2885-15/e35/43185029_2093675474279082_1134787806335841164_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
@@ -2638,11 +2647,12 @@
 			</div>
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->

@@ -30,18 +30,21 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
     
-    <link rel="image_src" href="https://scontent-arn2-2.cdninstagram.com/vp/b656192965e62f1996af5491e85de485/5E229A4F/t51.2885-15/e35/72391745_107412067225830_6719843126971205900_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" />
+    <link rel="image_src" href="https://scontent-arn2-2.cdninstagram.com/vp/d82c88f227f7b76563e1dedf02f57e72/5E2CCD04/t51.2885-15/e35/72733754_139782073978560_762316432049108388_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" />
     <meta name="robots" content="INDEX, FOLLOW" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://poetarium-parfenovoj.itsinsta.site//posts/xxdruz-ya.html" />
-    <meta property="og:image" content="https://scontent-arn2-2.cdninstagram.com/vp/b656192965e62f1996af5491e85de485/5E229A4F/t51.2885-15/e35/72391745_107412067225830_6719843126971205900_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" />
+    <meta property="og:image" content="https://scontent-arn2-2.cdninstagram.com/vp/d82c88f227f7b76563e1dedf02f57e72/5E2CCD04/t51.2885-15/e35/72733754_139782073978560_762316432049108388_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1080"/>
-    <meta property="og:image:height" content="816"/>
+    <meta property="og:image:width" content="1000"/>
+    <meta property="og:image:height" content="1000"/>
     <meta property="og:title" content="▪️Друзья! Поэтариум" />
     <meta property="og:description" content="▪️Друзья!" />
     <meta property="og:locale" content="Ru-ru" />
     <meta property="og:site_name" content="poetarium_parfenovoj" />
+
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
 
 </head>
 <body>
@@ -54,7 +57,7 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
@@ -68,249 +71,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэт ариум">
-								<a href="../tags/./poet-arium.html">
-									<div class="stories__slide-pic"><img src="../img/og/poet-arium.png" alt="поэт ариум" /></div>
-									<div class="stories__slide-txt">поэт ариум</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэт ариум">
+										<a href="../tags/./poet-arium.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poet-arium.png);"></div>
+											<div class="stories__slide-txt">поэт ариум</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэт ариумп арфе новой">
+										<a href="../tags/./poet-ariump-arfe-novoy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poet-ariump-arfe-novoy.png);"></div>
+											<div class="stories__slide-txt">поэт ариумп арфе новой</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="люлька lounge">
+										<a href="../tags/./lyul-ka-lounge.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/lyul-ka-lounge.png);"></div>
+											<div class="stories__slide-txt">люлька lounge</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты Москвы">
+										<a href="../tags/./poety-moskvy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety-Moskvy.png);"></div>
+											<div class="stories__slide-txt">поэты Москвы</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты">
+										<a href="../tags/./poety.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety.png);"></div>
+											<div class="stories__slide-txt">поэты</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты 21века">
+										<a href="../tags/./poety-21veka.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety-21veka.png);"></div>
+											<div class="stories__slide-txt">поэты 21века</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэзия">
+										<a href="../tags/./poeziya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poeziya.png);"></div>
+											<div class="stories__slide-txt">поэзия</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="современные поэты">
+										<a href="../tags/./sovremennye-poety.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sovremennye-poety.png);"></div>
+											<div class="stories__slide-txt">современные поэты</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="стихи">
+										<a href="../tags/./stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/stikhi.png);"></div>
+											<div class="stories__slide-txt">стихи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="романтика">
+										<a href="../tags/./romantika.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/romantika.png);"></div>
+											<div class="stories__slide-txt">романтика</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="вечер">
+										<a href="../tags/./vecher.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/vecher.png);"></div>
+											<div class="stories__slide-txt">вечер</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="современная поэзия">
+										<a href="../tags/./sovremennaya-poeziya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sovremennaya-poeziya.png);"></div>
+											<div class="stories__slide-txt">современная поэзия</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="читаем стихи">
+										<a href="../tags/./chitaem-stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/chitaem-stikhi.png);"></div>
+											<div class="stories__slide-txt">читаем стихи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="интеллектуальный досуг">
+										<a href="../tags/./intellektual-nyy-dosug.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/intellektual-nyy-dosug.png);"></div>
+											<div class="stories__slide-txt">интеллектуальный досуг</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэзия большихгородов">
+										<a href="../tags/./poeziya-bol-shikhgorodov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poeziya-bol-shikhgorodov.png);"></div>
+											<div class="stories__slide-txt">поэзия большихгородов</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="пишем стихи">
+										<a href="../tags/./pishem-stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/pishem-stikhi.png);"></div>
+											<div class="stories__slide-txt">пишем стихи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="арт пространство">
+										<a href="../tags/./art-prostranstvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/art-prostranstvo.png);"></div>
+											<div class="stories__slide-txt">арт пространство</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="культовоеместо">
+										<a href="../tags/./kul-tovoemesto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kul-tovoemesto.png);"></div>
+											<div class="stories__slide-txt">культовоеместо</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="арт площадка">
+										<a href="../tags/./art-ploshchadka.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/art-ploshchadka.png);"></div>
+											<div class="stories__slide-txt">арт площадка</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="атмосферное место">
+										<a href="../tags/./atmosfernoe-mesto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/atmosfernoe-mesto.png);"></div>
+											<div class="stories__slide-txt">атмосферное место</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="концерт">
+										<a href="../tags/./kontsert.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kontsert.png);"></div>
+											<div class="stories__slide-txt">концерт</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="творчество">
+										<a href="../tags/./tvorchestvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tvorchestvo.png);"></div>
+											<div class="stories__slide-txt">творчество</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="бар">
+										<a href="../tags/./bar.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/bar.png);"></div>
+											<div class="stories__slide-txt">бар</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="панорамный вид">
+										<a href="../tags/./panoramnyy-vid.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/panoramnyy-vid.png);"></div>
+											<div class="stories__slide-txt">панорамный вид</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="веранда">
+										<a href="../tags/./veranda.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/veranda.png);"></div>
+											<div class="stories__slide-txt">веранда</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="среда обитания поэтов">
+										<a href="../tags/./sreda-obitaniya-poetov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sreda-obitaniya-poetov.png);"></div>
+											<div class="stories__slide-txt">среда обитания поэтов</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="автор">
+										<a href="../tags/./avtor.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/avtor.png);"></div>
+											<div class="stories__slide-txt">автор</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="перфоманс">
+										<a href="../tags/./perfomans.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/perfomans.png);"></div>
+											<div class="stories__slide-txt">перфоманс</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="repost">
+										<a href="../tags/./repost.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/repost.png);"></div>
+											<div class="stories__slide-txt">repost</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="закат">
+										<a href="../tags/./zakat.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakat.png);"></div>
+											<div class="stories__slide-txt">закат</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэт ариумп арфе новой">
-								<a href="../tags/./poet-ariump-arfe-novoy.html">
-									<div class="stories__slide-pic"><img src="../img/og/poet-ariump-arfe-novoy.png" alt="поэт ариумп арфе новой" /></div>
-									<div class="stories__slide-txt">поэт ариумп арфе новой</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="люлька lounge">
-								<a href="../tags/./lyul-ka-lounge.html">
-									<div class="stories__slide-pic"><img src="../img/og/lyul-ka-lounge.png" alt="люлька lounge" /></div>
-									<div class="stories__slide-txt">люлька lounge</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэты Москвы">
-								<a href="../tags/./poety-moskvy.html">
-									<div class="stories__slide-pic"><img src="../img/og/poety-Moskvy.png" alt="поэты Москвы" /></div>
-									<div class="stories__slide-txt">поэты Москвы</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэты">
-								<a href="../tags/./poety.html">
-									<div class="stories__slide-pic"><img src="../img/og/poety.png" alt="поэты" /></div>
-									<div class="stories__slide-txt">поэты</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэты 21века">
-								<a href="../tags/./poety-21veka.html">
-									<div class="stories__slide-pic"><img src="../img/og/poety-21veka.png" alt="поэты 21века" /></div>
-									<div class="stories__slide-txt">поэты 21века</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэзия">
-								<a href="../tags/./poeziya.html">
-									<div class="stories__slide-pic"><img src="../img/og/poeziya.png" alt="поэзия" /></div>
-									<div class="stories__slide-txt">поэзия</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="современные поэты">
-								<a href="../tags/./sovremennye-poety.html">
-									<div class="stories__slide-pic"><img src="../img/og/sovremennye-poety.png" alt="современные поэты" /></div>
-									<div class="stories__slide-txt">современные поэты</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="стихи">
-								<a href="../tags/./stikhi.html">
-									<div class="stories__slide-pic"><img src="../img/og/stikhi.png" alt="стихи" /></div>
-									<div class="stories__slide-txt">стихи</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="романтика">
-								<a href="../tags/./romantika.html">
-									<div class="stories__slide-pic"><img src="../img/og/romantika.png" alt="романтика" /></div>
-									<div class="stories__slide-txt">романтика</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="вечер">
-								<a href="../tags/./vecher.html">
-									<div class="stories__slide-pic"><img src="../img/og/vecher.png" alt="вечер" /></div>
-									<div class="stories__slide-txt">вечер</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="современная поэзия">
-								<a href="../tags/./sovremennaya-poeziya.html">
-									<div class="stories__slide-pic"><img src="../img/og/sovremennaya-poeziya.png" alt="современная поэзия" /></div>
-									<div class="stories__slide-txt">современная поэзия</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="читаем стихи">
-								<a href="../tags/./chitaem-stikhi.html">
-									<div class="stories__slide-pic"><img src="../img/og/chitaem-stikhi.png" alt="читаем стихи" /></div>
-									<div class="stories__slide-txt">читаем стихи</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="интеллектуальный досуг">
-								<a href="../tags/./intellektual-nyy-dosug.html">
-									<div class="stories__slide-pic"><img src="../img/og/intellektual-nyy-dosug.png" alt="интеллектуальный досуг" /></div>
-									<div class="stories__slide-txt">интеллектуальный досуг</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="поэзия большихгородов">
-								<a href="../tags/./poeziya-bol-shikhgorodov.html">
-									<div class="stories__slide-pic"><img src="../img/og/poeziya-bol-shikhgorodov.png" alt="поэзия большихгородов" /></div>
-									<div class="stories__slide-txt">поэзия большихгородов</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="пишем стихи">
-								<a href="../tags/./pishem-stikhi.html">
-									<div class="stories__slide-pic"><img src="../img/og/pishem-stikhi.png" alt="пишем стихи" /></div>
-									<div class="stories__slide-txt">пишем стихи</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="арт пространство">
-								<a href="../tags/./art-prostranstvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/art-prostranstvo.png" alt="арт пространство" /></div>
-									<div class="stories__slide-txt">арт пространство</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="культовоеместо">
-								<a href="../tags/./kul-tovoemesto.html">
-									<div class="stories__slide-pic"><img src="../img/og/kul-tovoemesto.png" alt="культовоеместо" /></div>
-									<div class="stories__slide-txt">культовоеместо</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="арт площадка">
-								<a href="../tags/./art-ploshchadka.html">
-									<div class="stories__slide-pic"><img src="../img/og/art-ploshchadka.png" alt="арт площадка" /></div>
-									<div class="stories__slide-txt">арт площадка</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="атмосферное место">
-								<a href="../tags/./atmosfernoe-mesto.html">
-									<div class="stories__slide-pic"><img src="../img/og/atmosfernoe-mesto.png" alt="атмосферное место" /></div>
-									<div class="stories__slide-txt">атмосферное место</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="концерт">
-								<a href="../tags/./kontsert.html">
-									<div class="stories__slide-pic"><img src="../img/og/kontsert.png" alt="концерт" /></div>
-									<div class="stories__slide-txt">концерт</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="творчество">
-								<a href="../tags/./tvorchestvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/tvorchestvo.png" alt="творчество" /></div>
-									<div class="stories__slide-txt">творчество</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="бар">
-								<a href="../tags/./bar.html">
-									<div class="stories__slide-pic"><img src="../img/og/bar.png" alt="бар" /></div>
-									<div class="stories__slide-txt">бар</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="панорамный вид">
-								<a href="../tags/./panoramnyy-vid.html">
-									<div class="stories__slide-pic"><img src="../img/og/panoramnyy-vid.png" alt="панорамный вид" /></div>
-									<div class="stories__slide-txt">панорамный вид</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="веранда">
-								<a href="../tags/./veranda.html">
-									<div class="stories__slide-pic"><img src="../img/og/veranda.png" alt="веранда" /></div>
-									<div class="stories__slide-txt">веранда</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="среда обитания поэтов">
-								<a href="../tags/./sreda-obitaniya-poetov.html">
-									<div class="stories__slide-pic"><img src="../img/og/sreda-obitaniya-poetov.png" alt="среда обитания поэтов" /></div>
-									<div class="stories__slide-txt">среда обитания поэтов</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="автор">
-								<a href="../tags/./avtor.html">
-									<div class="stories__slide-pic"><img src="../img/og/avtor.png" alt="автор" /></div>
-									<div class="stories__slide-txt">автор</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="перфоманс">
-								<a href="../tags/./perfomans.html">
-									<div class="stories__slide-pic"><img src="../img/og/perfomans.png" alt="перфоманс" /></div>
-									<div class="stories__slide-txt">перфоманс</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="repost">
-								<a href="../tags/./repost.html">
-									<div class="stories__slide-pic"><img src="../img/og/repost.png" alt="repost" /></div>
-									<div class="stories__slide-txt">repost</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="закат">
-								<a href="../tags/./zakat.html">
-									<div class="stories__slide-pic"><img src="../img/og/zakat.png" alt="закат" /></div>
-									<div class="stories__slide-txt">закат</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -325,28 +334,39 @@
 						<h1 class="article__title">▪️Друзья!</h1>
 						<div class="article__datas">
 							<div class="article__datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Поэтариум</div>
-							<div class="article__datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-12">12 October 2019</time></div>
-							<a href="https://www.instagram.com/p/B3hvoXLIR8T/" 
+							<div class="article__datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-14">14 October 2019</time></div>
+							<a href="https://www.instagram.com/p/B3nZz-Uood6/" 
 								target="_blank" class="article__datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</a>
-							<a href="https://www.instagram.com/p/B3hvoXLIR8T/" 
-								target="_blank" class="article__datas-item"><i class="fa fa-heart" aria-hidden="true"></i>57</a>
+							<a href="https://www.instagram.com/p/B3nZz-Uood6/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-heart" aria-hidden="true"></i>42</a>
 						</div>
 					</div>
 					<div class="article__wrap" id="ja-article-wrap">
 						<div class="article-main">
 							<div class="article-content">
-								<div class="article-slider js-article-slider">
-									<div><div class="article-slide"><img data-lazy="https://scontent-arn2-2.cdninstagram.com/vp/b656192965e62f1996af5491e85de485/5E229A4F/t51.2885-15/e35/72391745_107412067225830_6719843126971205900_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div></div>
-									<div><div class="article-slide"><img data-lazy="https://scontent-arn2-2.cdninstagram.com/vp/f3b012fbca333af07df9ab821691d360/5E29319B/t51.2885-15/e35/71523964_692088327936352_1000121470587483036_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div></div>
-									<div><div class="article-slide"><img data-lazy="https://scontent-arn2-2.cdninstagram.com/vp/a8f334a2d6cf366fe6df897f9dcbeb3e/5E20E2B3/t51.2885-15/e35/73527664_2358302617820409_5584018351431516088_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div></div>
+								<div class="article-slider-wrap">
+									<div class="article-slider js-article-slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide article-slider__slide">
+												<img data-src="https://scontent-arn2-2.cdninstagram.com/vp/d82c88f227f7b76563e1dedf02f57e72/5E2CCD04/t51.2885-15/e35/72733754_139782073978560_762316432049108388_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" class="swiper-lazy" alt="">
+											</div>
+											<div class="swiper-slide article-slider__slide">
+												<img data-src="https://scontent-arn2-2.cdninstagram.com/vp/881b6e4bdb07e9f167b5ae2ea1378c4e/5E3FF7FD/t51.2885-15/e35/72587992_414970982435989_3027325443159000355_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" class="swiper-lazy" alt="">
+											</div>
+											<div class="swiper-slide article-slider__slide">
+												<img data-src="https://scontent-arn2-2.cdninstagram.com/vp/646e110b36a7b0b5fbb97d27c0cd0dde/5E634AD8/t51.2885-15/e35/74336219_153281539247748_4554142993935915200_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" class="swiper-lazy" alt="">
+											</div>
+											<div class="article-slider-pagination js-article-slider-pagination"></div>
+											<div class="article-slider-arrow article-slider-arrow--prev js-article-slider-prev"></div>
+											<div class="article-slider-arrow article-slider-arrow--next js-article-slider-next"></div>
+										</div>
+									</div>
 								</div>
-								<p>▪️Друзья! 16 октября - КЛАССИКА ПОЭЗИИ в !<br/>▪️У нас в гостях замечательная актриса театра и кино, член Гильдии Киноактеров, преподаватель актёрского мастерства, художественный руководитель проекта "Стихи.. и я" <a href="https://instagram.com/svetlana_lebedeva_aktrisa" target="_blank">@svetlana_lebedeva_aktrisa</a> Светлана Лебедева!<br/>▪️ В программе - Гумилев, Цветаева, Ахматова, Тютчев, Давыдов в музыкальном сопровождении виолончели и фортепиано.▪️ 🎤🎤Окрытый микрофон🎤🎤▪️<br/>▪️Буриме-конкурс▪️<br/>▪️ Приз за лучшее прочтение - мастер-класс по актерскому мастерству и речи от Светланы Лебедевой!<br/>🔹️Ждем вас 16/10 на самой поэтической крыше города!<br/>🔹️Арт-пространство лофта <a href="https://instagram.com/lyulkalounge" target="_blank">@lyulkalounge</a> ! 🌇<br/>Адрес: М. Киевская, Кутузовский пр.12с3<br/>🌇Территория Бадаевского завода<br/>🔸️Сбор гостей 19:30<br/>🔸️Начало 20:00<br/>🔸️Вход свободный!</p> 
+								<p>▪️Друзья! 16 октября - КЛАССИКА ПОЭЗИИ и Открытый микрофон - в !<br/>▪️У нас в гостях замечательная актриса театра и кино, член Гильдии Киноактеров, преподаватель актёрского мастерства, художественный руководитель проекта "Стихи.. и я" - <a href="https://instagram.com/svetlana_lebedeva_aktrisa" target="_blank">@svetlana_lebedeva_aktrisa</a> Светлана Лебедева!<br/>▪️ В программе - Гумилев, Цветаева, Ахматова, Тютчев, Давыдов в музыкальном сопровождении виолончели и фортепиано.▪️ 🎤🎤Окрытый микрофон🎤🎤▪️<br/>Участники- <a href="https://instagram.com/atrubkin" target="_blank">@atrubkin</a>, <br/><a href="https://instagram.com/katyalandysh" target="_blank">@katyalandysh</a> <a href="https://instagram.com/shushpanovvs" target="_blank">@shushpanovvs</a>, <a href="https://instagram.com/alexandr.kosenkov" target="_blank">@alexandr.kosenkov</a><br/><a href="https://instagram.com/asya_snap" target="_blank">@asya_snap</a><br/><a href="https://instagram.com/bellarus" target="_blank">@bellarus</a>8<br/><a href="https://instagram.com/stepan_" target="_blank">@stepan_</a>10_94<br/><a href="https://instagram.com/dobrik" target="_blank">@dobrik</a>888<br/>✒✒✒✒Буриме-конкурс!✒▪️<br/>▪️ 🎭 Приз за лучшее прочтение -  мастер-класс по актерскому мастерству и речи от Светланы Лебедевой!🎭<br/>🔹️Ждем вас 16/10 на самой поэтической крыше города!<br/>🔹️Арт-пространство лофта <a href="https://instagram.com/lyulkalounge" target="_blank">@lyulkalounge</a> ! 🌇<br/>Адрес: М. Киевская, Кутузовский пр.12с3<br/>🌇Территория Бадаевского завода<br/>🔸️Сбор гостей 19:30<br/>🔸️Начало 20:00<br/>🔸️Вход свободный!</p> 
 							</div>
 						<div>
-							<a href="https://www.instagram.com/p/B3hvoXLIR8T/" 
-								target="_blank" class="links-page-list__item-link">
-								<strong>Комментировать</strong>
-								<span>Instagram</span>
+							<a href="https://www.instagram.com/p/B3nZz-Uood6/" 
+								target="_blank" class="links-page-btn shake"><strong>Комментировать</strong>&nbsp;<span>Instagram</span>
 							</a>
 						</div>
 
@@ -405,7 +425,7 @@
 									<li><a href="./donxt-stop-dreaming.html">Don’t stop dreaming!</a></li>
 									<li><a href="./xxsof-ya-krupina---odna-iz-sozdateley-spektaklya--plastika-poeziya-garmoniya-.html">▫️Софья Крупина - одна из создателей спектакля "Пластика Поэзия Гармония"!</a></li>
 									<li><a href="./xxodin-iz--khoreografov-plasticheskogo-spektaklya-elementami-immersiva--poeziya-plastika-garmoniya-----25.html">▫️Один из хореографов пластического спектакля элементами иммерсива "Поэзия Пластика Гармония" - 25 /09 в - Женя Сурмин - @eugene_surmin▫️</a></li>
-									<li><a href="./x-nash-muzykal-nyy-gost--18-sentyabrya---zamechatel-naya-pevitsa-amaria-xamaria.html">⚛ Наш музыкальный гость 18 сентября - замечательная певица Amaria @amaria.</a></li>
+									<li><a href="./hashvatmosfere.html"></a></li>
 									</ul>
 								</nav>
 								<nav class="article-bar__tags">
@@ -414,10 +434,10 @@
 										
 									</h3>
 									<ul class="article-bar__tags-list">
-									<li><a href="./hashvatmosfere.html"></a></li>
 									<li><a href="./hashpoetarium-.html">- ✒🌇✒ и людей искусства!</a></li>
 									<li><a href="./hashpoetarium---sreda-obitaniya-poetov.html">- среда обитания поэтов!</a></li>
 									<li><a href="./-zdes--vecher-nastaet-vnezapno.html">"Здесь вечер настает внезапно,</a></li>
+									<li><a href="./-kot---eto-drevnee-i-neprikosnovennoe-zhivotnoe.html">"Кот - это древнее и неприкосновенное животное!</a></li>
 									</ul>
 								</nav>
 								<nav class="article-bar__tags">
@@ -467,7 +487,7 @@
 									<div class="article-more__item-pic-blind">
 										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>65</span>
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/73d895f394aa4336afc41ee15d8bb3dc/5E38B9D3/t51.2885-15/e35/69878257_812084662540390_4628176913596346544_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt="🔹️🔹️Кто идет на ⚡ ?">
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/4d1437ce4db7d00791b523f7c98940dc/5E6046D3/t51.2885-15/e35/69878257_812084662540390_4628176913596346544_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt="🔹️🔹️Кто идет на ⚡ ?">
 								</div>
 								<div class="article-more__item-name">🔹️🔹️Кто идет на ⚡ ?</div>
 							</a>
@@ -485,7 +505,7 @@
 									<div class="article-more__item-pic-blind">
 										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>58</span>
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/c8e479e64f3be85d9248e4b337694c8b/5DA658E7/t51.2885-15/e35/70006155_165852811265276_3464427958857614649_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt="▫️Софья Крупина - одна из создателей спектакля "Пластика Поэзия Гармония"!">
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/e17b2b46443150ad380540c82cdbd89a/5DA9A4A7/t51.2885-15/e35/70006155_165852811265276_3464427958857614649_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt="▫️Софья Крупина - одна из создателей спектакля "Пластика Поэзия Гармония"!">
 								</div>
 								<div class="article-more__item-name">▫️Софья Крупина - одна из создателей спектакля "Пластика Поэзия Гармония"!</div>
 							</a>
@@ -501,7 +521,7 @@
 							<a href="./x-nash-muzykal-nyy-gost--18-sentyabrya---zamechatel-naya-pevitsa-amaria-xamaria.html" class="article-more__item">
 								<div class="article-more__item-pic">
 									<div class="article-more__item-pic-blind">
-										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>31</span>
+										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
 									</div>
 									<img src="https://scontent-arn2-2.cdninstagram.com/vp/bd058c345778572b956a4248dc7e575b/5E3F1D26/t51.2885-15/e35/70516674_680362015776234_2581518978674121549_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt="⚛ Наш музыкальный гость 18 сентября - замечательная певица Amaria @amaria.">
 								</div>
@@ -546,11 +566,12 @@
 			</div>
 		</div>		
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->
