@@ -1,2 +1,2 @@
 ﻿User-agent: *
-Sitemap: http://poetarium-parfenovoj.itsinsta.site//sitemap.xml
+Sitemap: https://poetarium-parfenovoj.itsinsta.site//sitemap.xml
