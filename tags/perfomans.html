@@ -1,0 +1,811 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>перфоманс</title>
+    <meta name="title" content="перфоманс">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+    <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
+	<link rel="stylesheet" href="../css/style.css"/>
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#fff">
+
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserhappy">
+            Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="https://browsehappy.com/"  target="_blank">обновите</a>.
+        </p>
+    <![endif]-->
+    <noscript>
+		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
+    </noscript>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="header__left">
+						<a href="../main.html" class="header__logo">
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ade564bf071753b8e2d4c6d57924540a/5E46AAC4/t51.2885-19/s150x150/50293454_638154633281953_2388735998285578240_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="Поэтариум-Пространство Поэзии"></div>
+							<div class="header__logo-txt">poetarium_parfenovoj</div>
+						</a>
+						<div class="header__title">Поэтариум-Пространство Поэзии</div>
+					</div>
+					<!--<div class="header__right">
+						<form action="#" method="get" class="search">
+							<input type="search" class="input search__input" placeholder="Поиск">
+							<button class="btn search__btn" type="submit" title="Искать"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</div>-->
+				</div>
+			</div>
+		</header>	
+		<div class="main">
+			<div class="stories">
+				<div class="container">
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэт ариум">
+										<a href="./poet-arium.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poet-arium.png);"></div>
+											<div class="stories__slide-txt">поэт ариум</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэт ариум парфе новой">
+										<a href="./poet-arium-parfe-novoy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poet-arium-parfe-novoy.png);"></div>
+											<div class="stories__slide-txt">поэт ариум парфе новой</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="люлька lounge">
+										<a href="./lyul-ka-lounge.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/lyul-ka-lounge.png);"></div>
+											<div class="stories__slide-txt">люлька lounge</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты">
+										<a href="./poety.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety.png);"></div>
+											<div class="stories__slide-txt">поэты</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты Москвы">
+										<a href="./poety-moskvy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety-Moskvy.png);"></div>
+											<div class="stories__slide-txt">поэты Москвы</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэты 21века">
+										<a href="./poety-21veka.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poety-21veka.png);"></div>
+											<div class="stories__slide-txt">поэты 21века</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэзия">
+										<a href="./poeziya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poeziya.png);"></div>
+											<div class="stories__slide-txt">поэзия</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="стихи">
+										<a href="./stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/stikhi.png);"></div>
+											<div class="stories__slide-txt">стихи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="культовоеместо">
+										<a href="./kul-tovoemesto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kul-tovoemesto.png);"></div>
+											<div class="stories__slide-txt">культовоеместо</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="современные поэты">
+										<a href="./sovremennye-poety.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sovremennye-poety.png);"></div>
+											<div class="stories__slide-txt">современные поэты</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="интеллектуальныйдосуг">
+										<a href="./intellektual-nyydosug.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/intellektual-nyydosug.png);"></div>
+											<div class="stories__slide-txt">интеллектуальныйдосуг</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="поэзия большихгородов">
+										<a href="./poeziya-bol-shikhgorodov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/poeziya-bol-shikhgorodov.png);"></div>
+											<div class="stories__slide-txt">поэзия большихгородов</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="артпространство">
+										<a href="./artprostranstvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/artprostranstvo.png);"></div>
+											<div class="stories__slide-txt">артпространство</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="современная поэзия">
+										<a href="./sovremennaya-poeziya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sovremennaya-poeziya.png);"></div>
+											<div class="stories__slide-txt">современная поэзия</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="артплощадка">
+										<a href="./artploshchadka.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/artploshchadka.png);"></div>
+											<div class="stories__slide-txt">артплощадка</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="атмосферноеместо">
+										<a href="./atmosfernoemesto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/atmosfernoemesto.png);"></div>
+											<div class="stories__slide-txt">атмосферноеместо</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="бар">
+										<a href="./bar.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/bar.png);"></div>
+											<div class="stories__slide-txt">бар</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="творчество">
+										<a href="./tvorchestvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tvorchestvo.png);"></div>
+											<div class="stories__slide-txt">творчество</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="веранда">
+										<a href="./veranda.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/veranda.png);"></div>
+											<div class="stories__slide-txt">веранда</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="панорамныйвид">
+										<a href="./panoramnyyvid.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/panoramnyyvid.png);"></div>
+											<div class="stories__slide-txt">панорамныйвид</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="средаобитания поэтов">
+										<a href="./sredaobitaniya-poetov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sredaobitaniya-poetov.png);"></div>
+											<div class="stories__slide-txt">средаобитания поэтов</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="вечер">
+										<a href="./vecher.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/vecher.png);"></div>
+											<div class="stories__slide-txt">вечер</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="концерт">
+										<a href="./kontsert.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/kontsert.png);"></div>
+											<div class="stories__slide-txt">концерт</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="романтика">
+										<a href="./romantika.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/romantika.png);"></div>
+											<div class="stories__slide-txt">романтика</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="автор">
+										<a href="./avtor.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/avtor.png);"></div>
+											<div class="stories__slide-txt">автор</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="закат">
+										<a href="./zakat.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/zakat.png);"></div>
+											<div class="stories__slide-txt">закат</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="читаем стихи">
+										<a href="./chitaem-stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/chitaem-stikhi.png);"></div>
+											<div class="stories__slide-txt">читаем стихи</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="moscowcity">
+										<a href="./moscowcity.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/moscowcity.png);"></div>
+											<div class="stories__slide-txt">moscowcity</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="бадаевскийзавод">
+										<a href="./badaevskiyzavod.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/badaevskiyzavod.png);"></div>
+											<div class="stories__slide-txt">бадаевскийзавод</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="пишем стихи">
+										<a href="./pishem-stikhi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/pishem-stikhi.png);"></div>
+											<div class="stories__slide-txt">пишем стихи</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
+					</div>
+				</div>
+			</div>
+			<nav class="breadcrumbs">
+				<div class="container">
+					<a href="../main.html">Главная</a> / <span>перфоманс</span>
+				</div>
+			</nav>
+			<div class="tag">
+				<div class="container">
+					<div class="tag__group">
+						<h1 class="tag__title">перфоманс, Москва</h1>
+						<div class="tag__item-list">
+							<a href="../posts/./xxsof-ya-krupina---odna-iz-sozdateley.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5b95d70c5c4f93f0d4db668d20208316/5DC7F727/t51.2885-15/e35/70006155_165852811265276_3464427958857614649_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-09-23">23 September 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>▫️Софья Крупина - одна из создателей</h2>
+										<p>▫️Софья Крупина - одна из создателей спектакля "Пластика Поэзия Гармония"!▫️<br/>▫️25 сентября в Поэтариум!<br/>▫️Софья Крупина @_sooofka._ - студентка хореографического факультета МГИК , хореограф конгресс-центра на Серпуховской, артистка шоу-балета "Rush-style", работает а иммерсивном шоу Мигеля "Вернувшиеся". Участница и хореограф клипов Александра Реввы и группа Ромарио @fotoromario.<br/>▫️Софья работает в жанре интеллектуального танца - "contemporary dance".▫️<br/>Справка:<br/>▫️"Контемп"– это современный танец, где тело является медиумом для создания танцева...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxkak-eto-bylo.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8cf34274056ff2216df296a02a57b76f/5E50702F/t51.2885-15/e35/69513037_149806569558160_4477732058716144071_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-09-22">22 September 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🚩Как это было?</h2>
+										<p>🚩Как это было? Это было незабываемо!😊<br/>▫️Вечер Влада Маленко @poet.taganka - режиссёра Московского театра поэтов в - Поэтариум. ▫️*11/09*▫️<br/>🚩Спасибо, Влад, спасибо ребятам из театра поэтов, спасибо всем, кто пришел и всем , кто поднялся на сцену почитать стихи! Мы все стали единым целым, и это было прекрасно!🚩 **************<br/>"Увидев солнца рыжую колючку,<br/>Цыганка вдруг заспорила с дождём:<br/>"Сентябрь, позолоти дверную ручку!<br/>И мы тогда сквозь эту дверь пройдём!" А там, за ней осенние святые <br/>На мокрых фресках в бежевых плащах,<br/>И птицы как в мол...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxi-v-posledniy-moment-letniy.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/835caaf14fda9e37a8a7a3a0a5dc659e/5E49F531/t51.2885-15/e35/67681756_122864439068599_9177228184502798416_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-08-31">31 August 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>▪️И в последний момент летний</h2>
+										<p>▪️И в последний момент летний - еще фотки с августовского вечера в !)▪️Спасибо @tanyamitchell_за ее волшебный перформанс, а зрителям и участникам за то, что пришли и были такие красииивые и задуумчивые, как и полагается на поэтических ночах!🖤▪️🎇▪️<br/> 14/08 〰️ 🌌Глазами чудесной @reginatrilobita 🌌 🔸️Увидимся в сентябре - 11 числа (Влад Маленко) и 18 числа (Александр Вулых) 🔸️<br/>🎤будет открытый микрофон - , коллеги, - записывайтесь!!)🙂🎤</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./posledniy-letniy.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/30e7beef06c3038e9e428fdc08dc5c7a/5E4E7B5C/t51.2885-15/e35/69798186_2657308874332141_3470464164407102525_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-08-26">26 August 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Последний Летний</h2>
+										<p>Последний Летний<br/>Цветной и Черно-Белый <br/><br/>14/08 〰️ 🌌Глазами чудесной @reginatrilobita 🌌<br/>〰️Спасибо нашим ярким участникам-поэтам и не менее ярким зрителям!)〰️<br/>🔸️Увидимся в сентябре - 11 числа!)🔸️</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxposledniy-letniy-poetarium.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/56449000381f17fddfc5b7a386967509/5E4CB771/t51.2885-15/e35/69136136_930400030645137_6902311082736024057_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-08-25">25 August 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>〰️Последний Летний Поэтариум!</h2>
+										<p>〰️Последний Летний Поэтариум! 〰️ 〰️14/08 〰️ 🌌Глазами чудесной @reginatrilobita 🌌<br/>〰️Спасибо нашим ярким участникам-поэтам и не менее ярким зрителям!)〰️<br/>До встречи осенью! 〰️11 сентября〰️</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxeshche-atmosfernye-fotki.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/97a1bed29e6c9577dae2e65505d6eb17/5E5D6969/t51.2885-15/e35/67496184_476457963133876_4932321196549357500_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-08-13">13 August 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌅Еще атмосферные фотки</h2>
+										<p>🌅Еще атмосферные фотки с наших летних мероприятий в !)<br/>Завтра - с позволения капризного, как ребёнок, московского солнца, - открытый микрофон на крыше!)🌅🌇🌅<br/>Участники нашего последнего летнего :<br/>Таня Митчелл @tanyamitchell_<br/>Борис Рахаев<br/>Регина Соболева @reginatrilobita<br/>Марина Чепрасова<br/>Андрей Медведев @performance.me<br/>Юлия Милюкина<br/>Антон Трубкин @atrubkin<br/>Таня Кузнецова @ona_nas<br/>Альберт Ибрагимов <br/>Анастасия Швецова<br/>Кишиневский Александр<br/>Артем Козловский<br/>Беня Брискин</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./druz-ya-2.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/79fbab224b2fbc0a38dbb686dece8764/5E3DFE45/t51.2885-15/e35/65023179_421372875258977_1990954997125257215_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-22">22 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Друзья!</h2>
+										<p>Друзья!) Наш Поэтический Летний Марафон продолжается и в ближайшую среду впервые в гостях у Поэтариум Легендарный Передвижной Поэтический Фестиваль "ПлясНигде"! Организатор фестиваля - известный писатель, поэт, журналист, автор романа «Головастик и святые» (шорт-лист престижной премии "Национальный бестселлер" и "НОС") - Андрей Филимонов. В 2012 году Андрей придумал и запустил по России и Европе Передвижной Поэтический Фестиваль. И фестиваль, действительно, получился кочующим. Он прошел в Санкт-Петербурге, во Вроцлаве, во Франкфруте-на-Майне, в...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxstikhi-na-kryshexx.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e84104ec92a28d484ab4d2a80f9e8509/5DC70708/t51.2885-15/e35/64781573_2466848613366664_8075962269179700183_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-22">22 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌅Стихи на крыше🌅</h2>
+										<p>🌅Стихи на крыше🌅<br/>Поэзия Странствий Татьяны Стояновой у нас в @tina_skay 🌅</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxpogovorim-na-zakate.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/432993d77bdbcdac23c0f4da72214070/5E56AF99/t51.2885-15/e35/61712520_149385562896395_7243326292734107352_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-15">15 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌅Поговорим на закате?</h2>
+										<p>🌅Поговорим на закате?<br/>О чем? О том, куда ведут дороги..🌅 !🌅<br/>🌅Поэзия Странствий в среду 19 июня в !🌅 🧡Объятья, улыбки, встречи и расставания, прекрасная музыка и красивый закат..🌅.<br/>И, конечно, стихи, стихи и еще раз стихи!<br/>Все дороги ведут в !🌅<br/>🎙Наши поэты на открытый микрофон 19 июня - романтичные и ранимые, пронзительные и трогательные:<br/>@stepan_10_94 @jumarchenko @albert_ibragimov @aigulsotariko @nikitaduplenskii @besedadmitrii @tina.bem @shushpanovs @4eprasova <br/>19.30<br/>Вход free <br/>Welcom <br/>Арт-пространство Лофта @lyulkalounge<br/>Superfoto @...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxxnash-muzykal-nyy-gost--1.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/59b786ab8a8d8f4a6140cf6e5e62c9a0/5E4ED1CF/t51.2885-15/e35/64240873_461951897706460_819925650685448356_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-14">14 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🔸️Наш музыкальный гость</h2>
+										<p>🔸️Наш музыкальный гость 19 июня - потрясающая @feliz._.feliz !🎙<br/>🔸️Feliz - новое яркое явление на московской клубной сцене, обладательница уникального, сразу запоминающегося контральто с особенным «черным» оттенком, вокалистка в легендарной группе «Браво», лауреат конкурса Усадьба-джаз 2017 в категории "Вокал", автор песен в стилях инди и электроника.💄😁🎤🎸😎<br/>🔸️Всех ждем! Будет по-летнему Жарко!)<br/>🔸️Вход свободный!<br/>🔸️Начало 19:30<br/>🔸️Адрес: м. Киевская, Кутузовский 12с3 🔸️Арт-пространство лофта @lyulkalounge<br/>🔸️Космические афиши - наш пре...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxxpoeticheskiy-monospektakl--xx-antonovki-xx.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2618476e64a0c9d4c3714829dda0aede/5DC6E4AE/t51.2885-15/e35/64748128_237215530571021_4498240002883841593_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-13">13 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🔸️Поэтический моноспектакль 🍏"Антоновки"🍏</h2>
+										<p>🔸️Поэтический моноспектакль 🍏"Антоновки"🍏 - потрясающего актера театра и кино, удивительного и самобытного поэта Антона Шагина @anton_shagin на сцене ! 🔸️ 🔸️ 🔸️ 🔸️ 🔸️ 🔸️ 🔸️ 🔸️ 🔸️🌟Мэлс из фильма "Стиляги" В. Тодоровского, Петр Верховенский в "Бесах" В. Хотиненко, Петр в "Яме" В. Фурмана, поэт-метростроевец в "Довлатове" А. Германа, а также Пер Гюнт Ибсена и Лопахин Чехова в спектаклях театра Ленком - таким нам знаком актер Антон Шагин - 29 мая в Поэтариум Антон раскрыл еще одну грань своего таланта и представил свой театрально-поэти...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxxprekrasnye-lyudi-v-prekrasnom-meste.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2634c052dafbfee7535017b4615612e1/5E42CD19/t51.2885-15/e35/62558313_141776197001157_3024967077773641640_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-09">09 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🔸️Прекрасные люди в прекрасном месте!</h2>
+										<p>🔸️Прекрасные люди в прекрасном месте!🔸️ Что ещё нужно для счастья?🌼 Конечно, стихи и творческое настроение!) И они снова будут<br/> в Поэтариум 19 июня!)<br/>19.30<br/>Вход free<br/>🎤Записывайтесь на открытый микрофон на нашей поэтической веранде!)🎤<br/>Superfoto @nigmatulincom Георгий Нигматулин❤</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxesli-ty-slushaesh--serdtsem.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1b6e1bded5c44953a7e9f0b919dbc1cd/5DC6EA49/t51.2885-15/e35/61042340_1356934884465273_5585748477346267054_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-08">08 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🔻Если ты слушаешь сердцем</h2>
+										<p>🔻Если ты слушаешь сердцем – то мир отвечает.<br/>Если ты слушаешь сердцем – свет безграничен!🔺️<br/>🔸️Восхитительные стихи поэта Екатерины Белавиной @bela_vina - "Ахматова всего лишь повод" - на нашей поэтической веранде - читает актриса, резидент чудесная Марина Чепрасова @4eprasova !<br/>🔸️"На донышке сумочки из бирюзовой замши –<br/>Маленький камушек, взятый из Комарово – <br/>Память холодная о нашей встрече вчерашней.<br/>Анна Ахматова – это всего лишь повод<br/><br/>Для разговоров, обид, примирений и чаек,<br/>Сосен… прибережённых друг другу страничек…<br/>Если ты слушаешь с...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./hashpoetarium.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/59a719582337eb4ca585e6010c7d331a/5E441F0A/t51.2885-15/e35/61441918_137606170676401_1996378944520091620_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-07">07 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>#Поэтариум</h2>
+										<p>🎆 В отражении смыслов..<br/>❤Катя @bela_vina , спасибо за чудесный вечер, за откровенность роз и неповторимость образов...🎆🎇<br/>🔸️За отдельные кадры-шедевры Спасибо @nigmatulincom🔸️</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./prekrasnye-lyudi-v-prekrasnom-meste.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9becdbd51136908e5fa940ddc191ee34/5E649B3F/t51.2885-15/e35/62027650_388711978402382_458452188230627403_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-05">05 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Прекрасные люди в прекрасном месте!</h2>
+										<p>Прекрасные люди в прекрасном месте!) Что еще нужно для счастья? Конечно, стихи и творческое настроение!) И они сегодня будут!<br/>Встречаемся в 19.30<br/>В !<br/>Кутузовский проспект 12с3 Арт-пространство лофта @lyulkalounge<br/>❤Спасибо за фотографии с поэтического вечера Антона Шагина @anton_shagin и с вечера - чудесному @nigmatulincom❤<br/>❣Спасибо замечательной Надежде Георгиевне Бабкиной за поддержку и тёплые слова❣!антоншагин</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./zavtra-v-poetarium---poet-neveroyatnaya.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/80bb7a43b69527dd93ba865a7cfa9ebc/5DC6EFEB/t51.2885-15/e35/61406783_2272275056322763_115222058296414194_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-04">04 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Завтра в Поэтариум - поет невероятная</h2>
+										<p>Завтра в Поэтариум - поет невероятная @allabensson !)<br/>Джаз, инди, соул - это все она!)<br/>Всем велкам!)<br/>Вход free<br/>Кутузовский проспект 12с3 Арт-пространство лофта @lyulkalounge</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./v-sredu-u-nas-v.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5eada24b01ddfc9879246c885db4bc5f/5E56DCFC/t51.2885-15/e35/60609115_117330982825446_6301207325108441898_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-03">03 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>В среду у нас в</h2>
+										<p>В среду у нас в поет умопомрачительная @allabensson !)<br/>Это джаз? Да! Это джаз!)<br/>Чувственный, нежный и современный...🗼🎤🎧🎷🎸🎹❤<br/>Ждем всех!<br/>Вход свободный!<br/>Кутузовский проспект 12с3 ❣Арт-пространство лофта @lyulkalounge<br/>❣Креативная афиша - @gantimurovdanat<br/>-наш друг, художник и дизайнер!❣</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxlyubimye-artisty-v.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/44c926f9d16c67b44abf0861c5453c02/5E4DE838/t51.2885-15/e35/60824755_178795533124340_472629195680551398_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-06-01">01 June 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🧡Любимые артисты в</h2>
+										<p>🧡Любимые артисты в !🧡<br/> на Сольном Поэтическом Концерте изумительного @anton_shagin!<br/>🔴Super foto by @nigmatulincom🔴</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./chitayte--antonovki-.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9e8d64c91691ebae76133a27e4fe86bd/5E60D516/t51.2885-15/e35/61272165_147885973014037_7831227203349336283_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-31">31 May 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Читайте "Антоновки"!</h2>
+										<p>Читайте "Антоновки"!💚🍏💚 И все будет ХОРОШО!))💚<br/>🔸️Сольный поэтический концерт Антона Шагина в !🔸️<br/>СуперФото @nigmatulincom</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxdruz-ya-6.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e824b9bacd07ee5eed65c51ed445023c/5E3E2379/t51.2885-15/e35/60446980_408782319720827_9177964595982918590_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-25">25 May 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌟Друзья!</h2>
+										<p>🌟Друзья!!! 😊 🔶️ 🔶️ 🔶️ С радостью приглашаем вас на Сольный Поэтический Концерт потрясающего актера и замечательного поэта @anton_shagin Антона Шагина, который состоится у нас в в среду 29 мая!<br/>🌟Мэлс из фильма "Стиляги" В. Тодоровского, Петр Верховенский в "Бесах" В. Хотиненко, Петр в "Яме" В. Фурмана, поэт-метростроевец в "Довлатове" А. Германа, а также Пер Гюнт Ибсена и Лопахин Чехова в спектаклях, поставленных в театре Ленком Марком Захаровым, - таким нам знаком актер театра и кино Антон Шагин.<br/>🌟29 мая в 19:00 в Поэтариум Антон раскрое...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xx-tak-byvaetx-kogda-vse-ideal-no.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f0c68986a575a7465a1ece7c3180b86b/5E4BA106/t51.2885-15/e35/60429427_355122598688330_1455667397137950503_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-25">25 May 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>💛 Так бывает, когда все идеально.</h2>
+										<p>💛 Так бывает, когда все идеально... легко, тепло и в искрах искренности! Спасибо маю за этот вечер и за эти лица..<br/>Спасибо милый Гера @nigmatulincom за снимки - ты солнечный мастер!)💛<br/> @lyulkalounge</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xx-tak-byvaetx-kogda-vse-ideal-no-1.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/384b77f4b82497cc1ff640bf457091b4/5E45BD14/t51.2885-15/e35/59618876_128983144959489_929398296043842672_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-25">25 May 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>💛 Так бывает, когда все идеально.</h2>
+										<p>💛 Так бывает, когда все идеально... легко, тепло и в искрах искренности! Спасибо маю за этот вечер и за эти лица..<br/>Спасибо милый Гера @nigmatulincom за снимки - ты солнечный мастер!)💛<br/> @lyulkalounge</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxuzhe-zavtra.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/916b3661ef587f529bfb45901aeac27c/5DC75781/t51.2885-15/e35/60191446_337415013618876_8544399839339245697_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-21">21 May 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌟Уже завтра!</h2>
+										<p>🌟Уже завтра!🌟 Снимаем пальто и Читаем у нас на веранде нашего любимого лофт- пространства @lyulkalounge !😊<br/>🌟🎤<br/>🎤🎤🎤◾Стихотворение Эдуарда Асадова в исполнении прекрасной актрисы, резидента - Марины Чепрасовой @4eprasova !🎤🌟🎤<br/>Ждем всех в 19.30!<br/>Вход free<br/>Адрес: м. Киевская<br/>Кутузовский проспект 12с3 Арт-пространство лофта @lyulkalounge ◾Спасибо за видео поэту-романтику @sailersman◾🕴🏿</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxvdokhnovlyaemsya.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4d87c975278838c861d010bbf44a5833/5E6047FA/t51.2885-15/e35/60803997_591052958048028_1673005461377250781_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-20">20 May 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌠Вдохновляемся!</h2>
+										<p>🌠Вдохновляемся!) Часть 2. Спасибо всем гостям и участникам Поэтариум ! Вы самые любимые!)🌠</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxdruz-ya-7.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/21fa9b82aef9413ddd8a4526d26ab27d/5E4878E4/t51.2885-15/e35/58902462_162643234765014_6514570169695580961_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-16">16 May 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌟Друзья!</h2>
+										<p>🌟Друзья!!! 😊 🔶️ 🔶️ 🔶️ С радостью приглашаем вас на Сольный Поэтический Концерт потрясающего актера и замечательного поэта @anton_shagin Антона Шагина, который состоится у нас в в среду 29 мая!<br/>🌟Мэлс из фильма "Стиляги" В. Тодоровского, Петр Верховенский в "Бесах" В. Хотиненко, Петр в "Яме" В. Фурмана, поэт-метростроевец в "Довлатове" А. Германа, а также Пер Гюнт Ибсена и Лопахин Чехова в спектаклях, поставленных в театре Ленком Марком Захаровым, - таким нам знаком актер театра и кино Антон Шагин.<br/>🌟29 мая в 19:00 в Поэтариум Антон раскрое...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxdruz-ya-8.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/84e982edebde152b6674afb1f89a756d/5E5CBA53/t51.2885-15/e35/59773866_421443871968062_128232131757590508_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-05-07">07 May 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌟Друзья!</h2>
+										<p>🌟Друзья!) Ждем всех 22 мая у нас в на вечер !<br/>Это будет один из самых романтичных вечеров! Поэзия московских крыш или стихи по вертикали!<br/>Читаем на веранде!🌟<br/>🎤Открытый микрофон - запись в директ!🎤<br/>🔝За конгениальную афишу спасибо нашему космически одаренному дизайнеру, художнику и другу @gantimurovdanat !🔝<br/>"Эти крыши на закате, <br/>Эти окна, как в огне, <br/>Самой резкою печатью <br/>Отпечатаны во мне. <br/>Этот город под горою,<br/> Вечереющий вдали, <br/>Словно тонкою иглою<br/> Прямо в кровь мою ввели."<br/>Стихи - Константин Ваншенкин<br/>✔Вход свободный!<br/>✔Начало 19-30<br/>...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxvtoraya-portsiya-fotografiy.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/adadc6fcbadc729dc785df4884255d12/5E60EEA3/t51.2885-15/e35/56894588_437868330309672_1496045441480058662_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-04-26">26 April 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌠Вторая порция фотографий</h2>
+										<p>🌠Вторая порция фотографий с Дня Рождения ! !😊<br/>🌠Спасибо нашим космически талантливым участникам ⭐⚡⭐, любимым гостям и всем, кто пришёл поддержать и поздравить!🌹🙂🌹<br/>Это было незабываемо!🌝🌠<br/>@besedadmitrii @alisatolkacheva @ruslansabir @tanyamitchell_<br/> @alfach3000</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxpervaya-portsiya-fotografiy.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c6eb06ba337fb60e8f1441d68ce6b43c/5E4B7E4B/t51.2885-15/e35/56765768_2245169399067317_5347066159497196449_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-04-24">24 April 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🌠Первая порция фотографий</h2>
+										<p>🌠Первая порция фотографий с Дня Рождения ! !😊<br/>🌠Спасибо нашим космически талантливым участникам ⭐⚡⭐, любимым гостям и всем, кто пришёл поддержать и поздравить!🌹🙂🌹<br/>Это было незабываемо!🌝🌠</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxprelyudiya-rakhmaninovaxxvremya.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/829b7389e352fadc48e9937b8e02bf89/5DC7799A/t51.2885-15/e35/57390264_271624330380868_2890923512755207506_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-04-19">19 April 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>🎹Прелюдия Рахманинова🎹Время</h2>
+										<p>🎹Прелюдия Рахманинова🎹Время Классики на нашем вечере в !)<br/>◼За роялем талантливый музыкант- Анастасия Астафьева, студентка Московской Государственной Консерватории имени Петра Ильича Чайковского .🎹</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxxxxxxx-nashi-postoyannye-uchastniki.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/29e6631d1b85df9ea05d085a21205ffd/5E463B0C/t51.2885-15/e35/56770819_168034950862680_2617394402088630180_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-04-18">18 April 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>😎〰️〰️😎 Наши постоянные участники,</h2>
+										<p>😎〰️〰️😎 Наши постоянные участники, наша поддержка, наши кумиры, настоящие творцы и художники! 😎〰️〰️😎 Актриса Марина @4eprasova, художник и дизайнер @gantimurovdanat, актёр и поэт @besedadmitrii, музыкант и певица @lenanevesoma, дизайнер и модельер @alisatolkacheva! ✔ 👩🏻‍🎤👩🏻‍🎨👩🏻‍🎓</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./xxxxxxzamechatel-nyy-aktyor-teatra.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6f401b96eb355d4a35ae35fc67b6dcff/5DC70735/t51.2885-15/e35/56786355_102793460878257_5641450239008385247_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-04-16">16 April 2019</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>💢♦️🎭Замечательный актёр театра</h2>
+										<p>💢♦️🎭Замечательный актёр театра @Цдр  Григорий Данцигер @grigorydantsiger, который пишет замечательные стихи. На нашем вечере 🎭♦️🎭♦️🎭♦️🎭♦️🎭"Форт Нокс поела саранча... Зацвёл, вдруг, Ледовитый океан... Немые, песни странные крича, Не дали висельнику умереть от ран. Вот это ночь! Какие образа'! И о'бразы, а хочется всего лишь, Чтоб тихо, не попавшись на глаза, Стихи тебе прочесть, если позволишь. Я научился слушать тишину, Глаза в затвор, чтобы росу не источали, И мыслей хоровод я в сторону веду, Пусть там кричат, о чём молчали. Лукавство. ...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>			
+		<div class="banner">
+			<div class="banner__overlay" id="js-banner-overlay" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');"></div>
+			<button class="btn banner__btn" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');">
+				<span><i class="fa fa-comments-o" aria-hidden="true"></i></span>
+			</button>
+			<div class="banner__main" id="js-banner-main">
+				<div class="banner__main-title">Свяжитесь с нами</div>
+				<div class="banner__main-row">
+					<div class="banner__main-item disable">
+						<div class="banner__main-item-ring"><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">WhatsApp</div>
+					</div>
+
+					<div class="banner__main-item disable">
+						<div class="banner__main-item-ring"><i class="fa fa-telegram" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Telegram</div>
+					</div>
+
+					<div class="banner__main-item disable">
+						<div class="banner__main-item-ring"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Viber</div>
+					</div>
+
+
+					<a href="https://www.instagram.com/poetarium_parfenovoj" target="_blank" 
+					class="banner__main-item">
+						<div class="banner__main-item-ring"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Instagram</div>
+					</a>
+
+				</div>
+			</div>
+		</div>			
+	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
+	<!--jQuery-->
+	<script src="../js/vendors/jquery.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
+	<!--init-->
+	<script src="../js/jquery.init.js"></script>
+	<!--my scripts-->
+	<script src="../js/jquery.main.js"></script>
+</body>
+</html>
